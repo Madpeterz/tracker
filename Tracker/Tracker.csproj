@@ -144,13 +144,13 @@
     <None Include="Resources\spring.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\unloaded.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\varia.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wave.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\unloaded.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

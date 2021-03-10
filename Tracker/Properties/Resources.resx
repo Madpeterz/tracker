@@ -118,35 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="phan_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phan-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rid_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rid-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dray_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dray-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plaz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\speed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="phan_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phan-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="charge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\charge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dray_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dray-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dray_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dray-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grav" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grav.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,40 +139,55 @@
   <data name="ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="space" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="varia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\varia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kraid_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kraid-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="s_attack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\s-attack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="items" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\items.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spaz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dray_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dray-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rid_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rid-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kraid_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kraid-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kraid_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kraid-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phan_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phan-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phan_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phan-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plaz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rid_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rid-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rid_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rid-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_attack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s-attack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="unloaded" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unloaded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="varia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\varia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

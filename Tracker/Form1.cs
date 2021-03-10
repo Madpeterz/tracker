@@ -25,35 +25,40 @@ namespace Tracker
 
         private void inbox(int lowx,int highy, int highx, int lowy, string name)
         {
-            var point = this.PointToClient(Cursor.Position);
-            int x = point.X;
-            int y = point.Y;
-            if((x >= lowx) && (x <= highx))
+            if (has_draw_inbox == false)
             {
-                if ((y >= lowy) && (y <= highy))
+                var point = this.PointToClient(Cursor.Position);
+                int x = point.X;
+                int y = point.Y;
+                if ((x >= lowx) && (x <= highx))
                 {
-                    if(collected.Contains(name) == false)
+                    if ((y >= lowy) && (y <= highy))
                     {
-                        collected.Add(name);
-                    }
-                    else
-                    {
-                        collected.Remove(name);
+                        has_draw_inbox = true;
+                        if (collected.Contains(name) == false)
+                        {
+                            collected.Add(name);
+                        }
+                        else
+                        {
+                            collected.Remove(name);
+                        }
                     }
                 }
             }
         }
 
+
         private void redrawimage()
         {
 
-            Bitmap bg = new Bitmap(Tracker.Properties.Resources.items,new Size(669,377));
+            Bitmap bg = new Bitmap(Tracker.Properties.Resources.items,new Size(960,540));
             Graphics background = Graphics.FromImage(bg);
             foreach (string a in collected)
             {
                 if (items.Contains(a) == true)
                 {
-                    background.DrawImage(mappedItems[a], 0, 0, 669, 377);
+                    background.DrawImage(mappedItems[a], 0, 0, 960, 540);
                 }
             }
             foreach(string b in bosses)
@@ -61,11 +66,11 @@ namespace Tracker
 
                 if(collected.Contains(b) == true)
                 {
-                    background.DrawImage(mappedBosses[b].Key, 0, 0, 669, 377);
+                    background.DrawImage(mappedBosses[b].Key, 0, 0, 960, 540);
                 }
                 else
                 {
-                    background.DrawImage(mappedBosses[b].Value, 0, 0, 669, 377);
+                    background.DrawImage(mappedBosses[b].Value, 0, 0, 960, 540);
                 }
             }
             pictureBox1.BackgroundImage = bg;
@@ -96,6 +101,7 @@ namespace Tracker
             items = mappedItems.Keys.ToList();
             redrawimage();
         }
+        bool has_draw_inbox = false;
 
         //bool flip = false;
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -114,26 +120,31 @@ namespace Tracker
             }
             flip = !flip;
             */
-            inbox(13, 388, 77, 285, "ridley");
-            inbox(16, 117, 131, 14, "dray");
-            inbox(431, 151, 522, 15, "phan");
-            inbox(591, 386, 676, 233, "kraid");
-            inbox(157, 384, 178, 363, "speed");
-            inbox(327, 386, 346, 367, "jump");
-            inbox(354, 386, 370, 368, "spring");
-            inbox(48, 141, 64, 124, "ice");
-            inbox(16, 174, 39, 155, "plaz");
-            inbox(47, 208, 68, 192, "wave");
-            inbox(20, 244, 36, 226, "spaz");
-            inbox(48, 274, 69, 257, "charge");
-            inbox(450, 185, 468, 170, "vaira");
-            inbox(478, 188, 492, 168, "grav");
-            inbox(451, 227, 470, 210, "space");
-            inbox(477, 226, 494, 209, "s-attack");
-            inbox(451, 265, 468, 251, "ball");
-            inbox(479, 268, 496, 250, "bomb");
-            redrawimage();
+            has_draw_inbox = false;
+            inbox(13, 388, 82, 282, "ridley");
+            inbox(14, 125, 130, 13, "dray");
+            inbox(616, 110, 679, 13, "phan");
+            inbox(584, 387, 678, 230, "kraid");
+            inbox(59, 261, 154, 253, "speed");
+            inbox(59, 239, 155, 230, "jump");
+            inbox(552, 211, 648, 206, "spring");
+            inbox(103, 152, 155, 145, "ice");
+            inbox(103, 185, 154, 177, "plaz");
+            inbox(103, 162, 155, 155, "wave");
+            inbox(103, 173, 154, 166, "spaz");
+            inbox(104, 142, 154, 132, "charge");
+            inbox(552, 140, 648, 133, "vaira");
+            inbox(551, 152, 649, 144, "grav");
+            inbox(59, 251, 156, 242, "space");
+            inbox(552, 223, 648, 214, "s-attack");
+            inbox(553, 188, 648, 181, "ball");
+            inbox(552, 200, 648, 195, "bomb");
+            if(has_draw_inbox == true) redrawimage();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

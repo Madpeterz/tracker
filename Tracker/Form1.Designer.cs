@@ -52,7 +52,8 @@ namespace Tracker
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Fuchsia;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.BackgroundImage = global::Tracker.Properties.Resources.unloaded;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(669, 377);
@@ -72,6 +73,7 @@ namespace Tracker
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Name = "Form1";
             this.Text = "SM3 track";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
